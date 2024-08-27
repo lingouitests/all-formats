@@ -1,0 +1,25 @@
+<html>
+<head></head>
+<body>
+<p>This string should be caught.</p>
+
+
+<!--  GLOBALYZER_IGNORE_NEXT_LINE-->
+<p>This string should be ignored because of ignore next line comment</p>
+<p>This string should be caught because not in ignore next line comment</p>
+
+<!--  GLOBALYZER_START_IGNORE-->
+
+<p>This string should be ignored because inside ignore block</p>
+<p>This string should also be ignored because inside ignore block</p>
+
+<!--  GLOBALYZER_END_IGNORE-->
+
+<p>This string should be caught because outside ignore block</p>
+
+<p>This string should be ignored because ignore this line</p><p>This string should also be ignored because ignore this line</p>  <!-- $NON-NLS-L$ -->
+
+<p>This string should be caught because only ignoring second issue</p><p>This string should be ignored because ignore second issue</p>  <!-- $NON-NLS-2$ -->
+
+</body>
+</html>
