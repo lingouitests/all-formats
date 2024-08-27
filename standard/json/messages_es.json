@@ -1,0 +1,8 @@
+{
+  "AddAsset" : " Agregar activo",
+  "AddTutorial" : " Agregar tutorial",
+  "createdDashboard" : "Creó el panel de control",
+  "deletedDashboard" : "Eliminado el panel de control",
+  "deletedTask" : "Se ha eliminado la tarea ${taskName}",
+  "useLink" : "Usa este enlace"
+}
